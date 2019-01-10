@@ -8,7 +8,7 @@ from sklearn.kernel_ridge import KernelRidge
 
 if __name__ == '__main__':
 	
-	(t, y, y_noisy) = pickle.load(open('../data/data.pickle', 'r'))
+	(t, y, y_noisy) = pickle.load(open('../data/data.pickle', 'rb'))
 
 	kr1 = KernelRidge(kernel='linear')
 	kr2 = KernelRidge(kernel='rbf')

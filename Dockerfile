@@ -1,5 +1,5 @@
 # Base image
-FROM python:2.7
+FROM python:3.7
 
 # Author information
 MAINTAINER artem.nikitin@skolkovotech.ru
